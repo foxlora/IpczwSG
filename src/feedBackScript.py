@@ -3,9 +3,11 @@ import pandas as pd
 from collections import Counter
 from itertools import groupby
 import re
+
 '''
 2019/5/14
 根据业务割接计划自动生成割接反馈单
+author：foxlora
 '''
 datadir = 'D:\\承载网业务割接\\2019.05.22\\'
 filename = '2019年度业务系统割接计划（截止到5月24日）.xls'
